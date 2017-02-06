@@ -168,31 +168,31 @@ input[id=message], select {
 	margin-right: 10px;
 }
 
-#cat {
+.cat {
 	margin: 20px;
     height: 151px;
     width: 210px;
 }
 
-#surf {
+.surf {
 	margin: 20px;
     height: 151px;
     width: 210px;
 }
 
-#island {
+.island {
 	margin: 20px;
     height: 151px;
     width: 210px;
 }
 
-#fog {
+.fog {
 	margin: 20px;
     height: 151px;
     width: 210px;
 }
 
-#tiger {
+.tiger {
 	margin: 20px;
     height: 151px;
     width: 210px;
@@ -292,12 +292,14 @@ input[id=message], select {
 	margin-left: -10px;
 }
 
-@media screen and (max-width: 768px min-width: 320px) {
+@media screen and (max-width: 768px) {
     .container {width: 450px;}
     .container2 {width: 450px;}
     .header {width: 100%;}
     textarea {width: 460px;}
     body {overflow: scroll;}
+    .surfpic {margin-left: 20px;}
+    .fogpic {margin-left: 20px;}
 
 }
 
@@ -336,6 +338,16 @@ input[id=message], select {
     .container2 {width: 250px;}
     .header {width: 100%;}
     textarea {width: 240px;}
+    .cat {width: 150px; height: 100px;}
+    .catpic {width: 150px;}
+    .surf {width: 150px; height: 100px;}
+    .surfpic {width: 150px;}
+    .island {width: 150px; height: 100px;}
+    .islandpic {width: 150px;}
+    .fog {width: 150px; height: 100px;}
+    .fogpic {width: 150px;}
+    .tiger {width: 150px; height: 100px;}
+    .tigerpic {width: 150px;}
 }
 
 @media screen and (max-width: 500px) {
@@ -348,6 +360,16 @@ input[id=message], select {
     .container2 {width: 200px;}
     .sidebar {height: auto;}
     textarea {width: 190px}
+    .cat {width: 100px; height: 50px; margin-left: -20px;}
+    .catpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
+    .surf {width: 100px; height: 50px; margin-left: -20px;}
+    .surfpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
+    .island {width: 100px; height: 50px; margin-left: -20px;}
+    .islandpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
+    .fog {width: 100px; height: 50px; margin-left: -20px;}
+    .fogpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
+    .tiger {width: 100px; height: 50px; margin-left: -20px;}
+    .tigerpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
 
 }
 
