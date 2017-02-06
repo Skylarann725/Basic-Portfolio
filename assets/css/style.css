@@ -292,12 +292,16 @@ input[id=message], select {
 	margin-left: -10px;
 }
 
+@media screen and (max-width: 790px) {
+    textarea {width: 490px;}
+}
+
 @media screen and (max-width: 768px) {
     .container {width: 450px;}
     .container2 {width: 450px;}
     .header {width: 100%;}
     textarea {width: 460px;}
-    body {overflow: scroll;}
+    body {overflow: vertical-scroll;}
     .surfpic {margin-left: 20px;}
     .fogpic {margin-left: 20px;}
 
@@ -308,7 +312,7 @@ input[id=message], select {
     .container2 {width: 400px;}
     .header {width: 100%;}
     textarea {width: 390px;}
-    body {overflow: scroll;}
+    body {overflow: vertical-scroll;}
     #submit {width: auto;}
 }
 
@@ -317,7 +321,7 @@ input[id=message], select {
     .container2 {width: 300px;}
     .header {width: 100%;}
     textarea {width: 290px;}
-    body {overflow: scroll;}
+    body {overflow: vertical-scroll;}
 }
 
 @media screen and (max-width: 630px){
@@ -355,7 +359,7 @@ input[id=message], select {
     .header {font-size: 10px}
     .header {width: 100%;}
     .navlist {font-size: 10px}
-    body {overflow: scroll;}
+    body {overflow: vertical-scroll;}
     .container {width: 200px;}
     .container2 {width: 200px;}
     .sidebar {height: auto;}
@@ -369,7 +373,7 @@ input[id=message], select {
     .fog {width: 100px; height: 50px; margin-left: -20px;}
     .fogpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
     .tiger {width: 100px; height: 50px; margin-left: -20px;}
-    .tigerpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px;}
+    .tigerpic {width: 100px; height: 20px; margin-top: -50px; font-size: 10px; margin-left: -20px}
 
 }
 
@@ -387,7 +391,7 @@ input[id=message], select {
     .container2 {width: 150px;}
     .sidebar {width: 80px;}
     .icons {width: 20px; height: 20px;}
-    body {overflow: scroll;}
+    body {overflow: vertical-scroll;}
     .container2 {height: auto;}
     textarea {width: 140px;}
 }
@@ -399,7 +403,6 @@ input[id=message], select {
     .container {width: 140px;}
     .container2 {width: 140px;}
     textarea {width: 130px;}
+    body {overflow: vertical-scroll;}
 }
-
-
 
