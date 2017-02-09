@@ -113,6 +113,7 @@ h3 {
     margin-top: 130px;
     float: left;
     margin-right: 10px;
+    margin-bottom: 130px;
     /*margin-left: 100px;*/
 
     }
@@ -170,7 +171,8 @@ input[id=message], select {
 
 .cat {
 	margin: 20px;
-    height: 151px;
+    /*height: 151px;*/
+    height: auto;
     width: 210px;
 }
 
